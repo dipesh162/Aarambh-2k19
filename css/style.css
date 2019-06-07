@@ -1,0 +1,257 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	background-color: black !important;
+}
+.background{
+	display: block;
+}
+.loader{
+	display: none !important;
+}
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: -50px;
+  margin-top: -50px;
+  z-index: 1;
+}
+
+#square1 {
+  height: 0px;
+  width: 0px;
+  background-color: #CCFFCC;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -30px;  
+  margin-left: -80px;
+  -webkit-transform: rotate(-45deg);
+  -webkit-animation: square1anim 2.6s infinite linear;
+}
+#square2 {
+  height: 0px;
+  width: 0px;
+  background-color: #00ee77;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -30px;  
+  margin-left: -30px;
+  -webkit-transform: rotate(-45deg);
+  -webkit-animation: square2anim 2.6s infinite linear;
+}
+#square3 {
+  height: 0px;
+  width: 0px;
+  background-color: #00aa99;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -30px;  
+  margin-left: 30px;
+  -webkit-transform: rotate(-45deg);
+  -webkit-animation: square3anim 2.6s infinite linear;
+}
+#square4 {
+  height: 0px;
+  width: 0px;
+  background-color: #0077aa;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -30px;  
+  margin-left: 80px;
+  -webkit-transform: rotate(-45deg);
+  -webkit-animation: square4anim 2.6s infinite linear;
+}
+
+@-webkit-keyframes square1anim {
+  0% {
+    -webkit-transform: rotate(-45deg);
+    height: 0px;
+    width: 0px;
+    margin-top: -30px;  
+    margin-left: -80px;
+  }
+  20% {
+    -webkit-transform: rotate(0deg);
+    height: 80px;
+    width: 80px;
+    margin-left: -125px;
+    margin-top: -60px;
+  }
+  40% {
+    height: 0px;
+    width: 0px;
+    margin-top: -30px;  
+    margin-left: -80px;
+    -webkit-transform: rotate(45deg);
+  }
+  100% {
+    -webkit-transform: rotate(45deg);
+  }
+}
+
+@-webkit-keyframes square2anim {
+  0% {
+    height: 0px;
+    width: 0px;
+    margin-top: -30px;  
+    margin-left: -30px;
+  }
+  5% {
+    -webkit-transform: rotate(-45deg);
+    height: 0px;
+    width: 0px;
+    margin-top: -30px;  
+    margin-left: -30px;
+  }  
+  25% {
+    -webkit-transform: rotate(0deg);
+    height: 80px;
+    width: 80px;
+    margin-left: -70px;
+    margin-top: -60px;
+  }
+  45% {
+    height: 0px;
+    width: 0px;
+    margin-top: -30px;  
+    margin-left: -30px;
+    -webkit-transform: rotate(45deg);
+  }
+  100% {
+    -webkit-transform: rotate(45deg);
+  }
+}
+
+@-webkit-keyframes square3anim {
+  0% {
+    height: 0px;
+    width: 0px;
+    margin-top: -30px;  
+    margin-left: 30px;
+  }
+  10% {
+    -webkit-transform: rotate(-45deg);
+    height: 0px;
+    width: 0px;
+    margin-top: -30px;  
+    margin-left: 30px;
+  }  
+  30% {
+    -webkit-transform: rotate(0deg);
+    height: 80px;
+    width: 80px;
+    margin-left: 0px;
+    margin-top: -60px;
+  }
+  50% {
+    height: 0px;
+    width: 0px;
+    margin-top: -30px;  
+    margin-left: 20px;
+    -webkit-transform: rotate(45deg);
+  }
+  100% {
+    -webkit-transform: rotate(45deg);
+  }
+}
+
+@-webkit-keyframes square4anim {
+  0% {
+    height: 0px;
+    width: 0px;
+    margin-top: -30px;  
+    margin-left: 80px;
+  }
+  15% {
+    -webkit-transform: rotate(-45deg);
+    height: 0px;
+    width: 0px;
+    margin-top: -30px;  
+    margin-left: 80px;
+  }  
+  35% {
+    -webkit-transform: rotate(0deg);
+    height: 80px;
+    width: 80px;
+    margin-left: 50px;
+    margin-top: -60px;
+  }
+  55% {
+    height: 0px;
+    width: 0px;
+    margin-top: -30px;  
+    margin-left: 80px;
+    -webkit-transform: rotate(45deg);
+  }
+  100% {
+    -webkit-transform: rotate(45deg);
+  }
+}
+
+
+
+
+
+
+.caption{
+	color: black;
+}
+
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 65%;
+} 
+
+
+.chief-guest-card{
+	background-color: green;
+}
+
+.carousel{
+	height: inherit !important;
+	width: inherit !important;
+}
+
+
+.cards{
+	width: 250px;
+	height: 350px;
+	margin-bottom: 40px;
+}
+
+.rules{
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+
+
+.masthead{
+background: #333333;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/*.map{
+	height: 200px;
+	width: 200px;
+}*/
+
+/* ---------------------------MEDIA QUERY ------------------------ */ 
+
+

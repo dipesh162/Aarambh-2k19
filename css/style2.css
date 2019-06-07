@@ -1,0 +1,63 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+header.masthead .intro-text{
+  padding-bottom: 100px !important;
+}
+
+.caption{
+	color: black;
+}
+
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 65%;
+} 
+
+
+.chief-guest-card{
+	background-color: green;
+}
+
+.carousel{
+	height: inherit !important;
+	width: inherit !important;
+}
+
+
+.cards{
+	width: 250px;
+	height: 350px;
+	margin-bottom: 40px;
+}
+
+.rules{
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+
+
+.masthead{
+background: #333333;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/*.map{
+	height: 200px;
+	width: 200px;
+}*/
+
+/* ---------------------------MEDIA QUERY ------------------------ */ 
+
+
